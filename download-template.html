@@ -1,0 +1,49 @@
+<div class='container-fluid'>
+    <div class='growl' growl></div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <h1>Downloading?</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <h1 class="main-text">How long does it take?</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-8 col-md-4 inputSize">
+            <input class="form-control input-sm main-input" type="number" ng-model="size" placeholder="enter the size of the file... example: 12.3">
+        </div>
+        <div class="col-xs-4 col-md-2 selectSize">
+            <select ng-options="val for val in sizeList" class="form-control input-sm" ng-model="unitSize"></select>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-6 col-md-2 choose">
+            <p>Choose type of speed:</p>
+        </div>
+        <div class="col-xs-6 col-md-2 selectType">
+            <select ng-change="chooseType()" ng-options="val for val in typeList" class="form-control input-sm" ng-model="typeSpeed"></select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-8 col-md-4 inputSpeed">
+            <input class="form-control input-sm main-input" type="number" ng-model="speed" placeholder="enter speed... example: 4">
+        </div>
+        <div class="col-xs-4 col-md-2 selectSpeed">
+            <select ng-options="val for val in speedList" class="form-control input-sm" ng-model="unitSpeed"></select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <p class="check">Check your connection speed:<a href="http://www.speedtest.net/pl" target="_blank"> SpeedTest by Ookla</a></p>
+        </div>
+    </div>
+
+    <button class="btn btn-sm btn-default" ng-click="result()">Check download time</button>
+
+    <h2 ng-show="showResult">Your file will be download in: {{result1}}</h2>
+</div>

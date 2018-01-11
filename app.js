@@ -1,0 +1,1 @@
+var app = angular.module("downloadApp", ['ui.bootstrap', 'ngRoute', 'ngAnimate' , 'ui.grid', 'angular-growl']);

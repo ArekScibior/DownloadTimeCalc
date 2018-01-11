@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.selectSize, .selectSpeed {
+    margin-left: -25px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.selectType {
+    margin-left: -26px;
+}
+
+.input-sm::-webkit-input-placeholder { /* Chrome */
+    color: black;
+    font-size: 1.1em;
+}
+.input-sm:-ms-input-placeholder { /* IE 10+ */
+    color: black;
+    font-size: 1.1em;
+}
+.input-sm::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+    font-size: 1.1em;
+    opacity: 1;
+}
+.input-sm:-moz-placeholder { /* Firefox 4 - 18 */
+    color: black;
+    font-size: 1.1em;
+    opacity: 1;
+}
+
+.btn-default {
+    color: black;
+}
+
+.main-input {
+    padding:0;
+}
+h1 {
+    margin-bottom: 0;
+}
+.main-text {
+    margin-bottom: 20px;
+}
