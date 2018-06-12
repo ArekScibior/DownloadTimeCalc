@@ -18,7 +18,7 @@ Projekt oparty jest na framework'u AngularJS.
 
 ## Aby uruchomić lub przetestować mój projekt:
 **UWAGA!** do przetestowania projektu potrzebny jest serwer lokalny.
-Może to być zwykły node'owe 'http-server'.
+Może to być zwykły node'owy 'http-server'.
 
 ```
 -przejdź do konsoli
