@@ -21,8 +21,6 @@ app.controller('downloadCtrl',['$scope', 'growl', function($scope, growl){
         var config = {};
         return growl.error("Ups, dane są niepoprawne!", config);
     };
-    //$scope.size = inputSize
-    //$scope.speed = inputSpeed
     
     //From sec to hh:mm:ss
     function secondsToTime(secs){
