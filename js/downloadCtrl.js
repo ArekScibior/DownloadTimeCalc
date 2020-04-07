@@ -85,6 +85,7 @@ app.controller('downloadCtrl',['$scope', 'growl', function($scope, growl){
                 $scope.result1 = secondsToTime(res)
                 $scope.showResult = true;
             } else if($scope.speed > 0 && $scope.size > 0 && $scope.unitSize === $scope.sizeList[3] && $scope.unitSpeed === $scope.speedList[1] && typeof $scope.size === "number" && $scope.size !== "") {
+                
                 res = Math.round($scope.size * 1073741824 / $scope.speed / 1024)
                 $scope.result1 = secondsToTime(res)
                 $scope.showResult = true;          
