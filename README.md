@@ -28,7 +28,7 @@ Może to być zwykły node'owy 'http-server'.
 -uruchom na stronie adres z serwera lokalnego.
 ```
 
-## Możesz obejrzeć dany projekt przechodząc do strony: https://arekscibior.github.io/DownloadTimeCalc
+## Możesz obejrzeć dany projekt przechodząc do strony: https://arekscibior.github.io/DownloadTimeCalc---AngularJS/#/
 
 
 ## Autor:
@@ -62,7 +62,7 @@ The project is based on **AngularJS** technology.
 -run in browser address from local server.
 ```
 
-## View the project online: https://arekscibior.github.io/DownloadTimeCalc
+## View the project online: https://arekscibior.github.io/DownloadTimeCalc---AngularJS/#/
 
 
 ## Author:
